@@ -1,0 +1,53 @@
+.bascet,
+.bascet__total-price  {
+   text-align: center;
+}
+.bascet__total-price {
+   font-size: 20px;
+   margin-bottom: 70px;
+}
+.bascet__total-price--color {
+   color: green;
+   font-weight: 600;
+}
+.bascet__book {
+   margin-bottom: 30px;
+}
+.bascet__text {
+   display: flex;
+   flex-direction: column;
+}
+.bascet__title {
+   width: 240px;
+}
+.bascet__price {
+   color: green;
+   margin-top: 0;
+}
+.bascet__btn {
+   margin-left: auto;
+   background: red;
+   padding: 10px 20px;
+   border: none;
+   outline: none;
+   border-radius: 10px;
+   cursor: pointer;
+   font-size: 18px;
+   color: white;
+}
+@media screen and (min-width: 700px) {
+   .bascet__book {
+      display: flex;
+      justify-content: space-evenly;
+      align-items: center;
+      border: 1px solid gray;
+      padding: 25px;
+      border-radius: 15px;
+   }
+   .bascet__title {
+      margin-left: auto;
+   }
+   .bascet__text {
+      margin-left: 15%;
+   }
+}
